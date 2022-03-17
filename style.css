@@ -126,10 +126,21 @@ body{
 
 .Infoeducation h4{
     color: #fff;
-    font-weight: 500;
-    font-size: 10px;
+    font-weight: 300;
+    font-size: 12px;
 }
 
+.infoloisir .text{
+   margin: 5px;
+    color: white;
+}
+
+.infoloisir h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
 
 .Infolangue .text{
     color: #fff;
@@ -151,6 +162,22 @@ body{
     background: orangered;
 }
 
+.uls .percent{
+    position: relative;
+    width: 50%;
+    height: 8px;
+    background: orangered;
+    display: block;
+}
+
+.uls .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: green;
+}
+
 .apropos{
     margin-bottom: 50px;
 }
@@ -168,6 +195,15 @@ body{
 p{
     color: #333;
 }
+.uls{
+    list-style: none;
+}
+
+.annee{
+    color: #003147;
+}
+
+
 
 .container .left_side{
     position: relative;
